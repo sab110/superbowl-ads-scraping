@@ -1,0 +1,50 @@
+✅ What You Should Do
+To run your epica_scraper.py in the background after logout, do this:
+
+🔧 Create a Task Scheduler Job (1-time setup):
+Press Start → search Task Scheduler
+
+Click Create Basic Task
+
+Name: Epica Scraper
+
+Trigger: When the computer starts or Once
+
+Action: Start a Program
+
+Program/script: python
+
+Arguments:
+
+arduino
+Copy
+Edit
+"C:\Users\Administrator\Desktop\epica_scraper.py"
+✅ Enable “Run whether user is logged in or not”
+
+✅ Enable “Run with highest privileges”
+
+Finish → Right-click → Run
+
+💡 If Python isn't in the system PATH, use full path:
+
+plaintext
+Copy
+Edit
+C:\Users\Administrator\AppData\Local\Programs\Python\Python310\python.exe
+🧪 How to Verify It's Running After Logout
+Run the task
+
+Disconnect your RDP session (don’t shut down)
+
+Wait 1–2 minutes
+
+Reconnect and check if the output folders (e.g., Epica/2024/...) or log file (scraper.log) are being updated
+
+Would you like me to give you:
+
+✅ A .bat file to schedule
+✅ A .xml Task Scheduler export you can import
+✅ Logging support in your Python script
+
+Let me know what you need!
