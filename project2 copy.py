@@ -5,11 +5,7 @@ import time
 import requests
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+import undetected_chromedriver as uc
 
 # === CONFIGURATION ===
 BASE_URL = "https://winners.epica-awards.com"
@@ -152,8 +148,8 @@ def extract_metadata_and_media(driver, campaign_url, year,agency, award, adverti
 # options.add_argument("--disable-blink-features=AutomationControlled")
 # driver = uc.Chrome(use_subprocess=True, options=options)
 
-options = Options()
-# options.add_argument("--headless=new")
+options = uc.ChromeOptions()
+options.add_argument("--headless=new")
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 options.add_argument("--disable-gpu")
@@ -168,7 +164,7 @@ user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 options.add_argument(f"user-agent={user_agent}")
 
 # Final driver launch
-driver = webdriver.Chrome(options=options)
+driver = uc.Chrome(use_subprocess=True, options=options)
 
 for year in YEARS:
     print(f"\n📆 Year {year}")
