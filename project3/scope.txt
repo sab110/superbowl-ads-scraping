@@ -1,0 +1,31 @@
+Brief – Scraping: Club des DA
+
+Hi Muhammad,
+
+Our next website to scrape is:
+🔗 leclubdesda.org/archives
+
+It’s a French website — if you need help understanding anything, feel free to ask.
+
+Objective:
+
+Scrape all available data from 1969 to today.
+
+Data structure:
+
+Please keep exactly the same JSON structure as before.
+I’m attaching a JPEG with the variables to use, to help guide you.
+
+Specific rules to apply:
+	•	For the award title variable, can you automatically replace the French labels with their English equivalents?
+	•	“1er Prix” → Gold
+	•	“2ème Prix” → Silver
+	•	“3ème Prix” → Bronze
+	•	“SHORTLIST” → Shortlist
+	•	For the country variable, please always use France.
+
+I’m still reviewing the full data delivery for the EPICA website — there are a lot of files so it will take me a bit of time. I’ll confirm the delivery as soon as I’ve gone through everything.
+
+If you’re OK with it, feel free to send me a new offer for the Club des DA project at $100.
+
+Thanks again,

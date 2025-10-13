@@ -1,0 +1,253 @@
+Scrape all available data from 1969 to today.
+leclubdesda.org/archives
+https://leclubdesda.org/archives/1?recompense_id=5&annee=1976
+To
+https://leclubdesda.org/archives/1?recompense_id=5&annee=2023
+
+Urls Exceptions:
+https://leclubdesda.org/archives/1?recompense_id=5&annee=1973-1974
+https://leclubdesda.org/archives/1?recompense_id=5&annee=1974-1975
+https://leclubdesda.org/archives/1?recompense_id=5&annee=1971-1972
+https://leclubdesda.org/archives/1?recompense_id=5&annee=1970-1971
+https://leclubdesda.org/archives/1?recompense_id=5&annee=1969-1970
+https://leclubdesda.org/archives/1?recompense_id=5&annee=1968-1969
+
+Awards wise URLS:
+https://leclubdesda.org/archives/1?recompense_id=9&annee=2023
+https://leclubdesda.org/archives/1?recompense_id=13&annee=2023
+https://leclubdesda.org/archives/1?recompense_id=10&annee=2023
+https://leclubdesda.org/archives/1?recompense_id=5&annee=2023
+
+Awards id Mapping:
+recompense_id in the url value 
+9 : Gold
+13 : Silver
+10 : Bronze
+5 : Shortlist
+
+For the country variable, please always use France.
+
+
+
+Categories wise URL:
+https://leclubdesda.org/archives/1?recompense_id=10&category_parent_id=2&annee=2023
+https://leclubdesda.org/archives/1?recompense_id=10&category_parent_id=4&annee=2023
+https://leclubdesda.org/archives/1?recompense_id=10&category_parent_id=11&annee=2023
+https://leclubdesda.org/archives/1?recompense_id=10&category_parent_id=29&annee=2023
+https://leclubdesda.org/archives/1?recompense_id=10&category_parent_id=44&annee=2023
+
+Categories id Mappping:
+
+2: Comm. extérieure & Print
+4: Comm. Films & Divertissements
+11: Comm. Direct Activation
+29: Comm. Grandes causes
+43: Comm. Mode
+3: Comm. Craft Image
+24: Bertrand Suchet - Rédaction & Audio
+38: Comm. Craft Direction Artistique
+42: Excellence
+40: Produits digitaux
+39: Innovations digitales
+10: Digital Communication
+33: Prod Films
+7: Prod Clip Musical
+21: Prod Son
+25: Prod VFX & Animation
+14: Branding design
+41: Design d’espaces
+16: Typographie
+32: Design graphique
+6: Motion design
+15: Concours Etudiant
+44: Concours Futurs désirables
+
+
+Sample Output :
+
+{
+  "origin": {
+    "name": "leclubdesda.org",
+    "url": "https://winners.epica-awards.com/2024/winners/56-01295-DIG/publicis-toronto/high-ai"
+  },
+  "name": "High AI",
+  "type": "video",
+  "sector": null,
+  "countries": "France",
+  "brands": "Tilray",
+  "agency": "publicis Toronto",
+  "year": "2024",
+  "award": "Silver",
+  "category": "AI Craft",
+  "subCategory": null,
+  "description": null,
+  "credits": [
+    {
+      "role": "Chief Creative Officer",
+      "name": "Vinicius Dalvi"
+    },
+    {
+      "role": "Head of Art",
+      "name": "Victor Yves"
+    },
+    {
+      "role": "Creative Director",
+      "name": "Helder Defreitas"
+    },
+    {
+      "role": "Copywriter",
+      "name": "Selina Heathcote"
+    },
+    {
+      "role": "Copywriter",
+      "name": "Andre Bittar"
+    },
+    {
+      "role": "Art Director",
+      "name": "Bruno Bueno"
+    },
+    {
+      "role": "Designer",
+      "name": "Terence Fuchs"
+    },
+    {
+      "role": "General Manager, Chief Digital Officer",
+      "name": "Alister Adams"
+    },
+    {
+      "role": "Director of Digital Experience",
+      "name": "Rylee Strachan"
+    },
+    {
+      "role": "Digital Strategist",
+      "name": "Jessica Goldentuler"
+    },
+    {
+      "role": "Digital Strategist",
+      "name": "Rob Jankowski"
+    },
+    {
+      "role": "Account Supervisor",
+      "name": "Jenny Chen"
+    },
+    {
+      "role": "Senior Project Manager",
+      "name": "Michaela Aulisio"
+    },
+    {
+      "role": "VP, Head of Production",
+      "name": "Pam Portsmouth"
+    },
+    {
+      "role": "Producer",
+      "name": "Terry Theofilactidis"
+    },
+    {
+      "role": "Director",
+      "name": "Alex Chan"
+    },
+    {
+      "role": "Director",
+      "name": "Cameron Marshall"
+    },
+    {
+      "role": "Associate Technical Director",
+      "name": "Benjamin Jones,"
+    },
+    {
+      "role": "Technology Lead, Motion & Display",
+      "name": "Christina Laba"
+    },
+    {
+      "role": "Senior Art Director, UI Designer",
+      "name": "Anya Hamman"
+    },
+    {
+      "role": "Director of Creative Production",
+      "name": "Cat Dawid"
+    },
+    {
+      "role": "Team Lead, Motion Design",
+      "name": "Jessie Zus"
+    },
+    {
+      "role": "Motion Designer",
+      "name": "Viktoriia Tyshchuk"
+    },
+    {
+      "role": "Director of Print Production Services",
+      "name": "Cherie Rudy,"
+    },
+    {
+      "role": "Production Designer",
+      "name": "John Maddin"
+    },
+    {
+      "role": "QA Manager",
+      "name": "Shahid Qureshi"
+    },
+    {
+      "role": "VP, Data Strategy",
+      "name": "Regina Azevedo"
+    },
+    {
+      "role": "Director, Data Science and Engineering",
+      "name": "Arda Kosar,"
+    },
+    {
+      "role": "Manager, Analytics and Research",
+      "name": "Matt Johnston"
+    },
+    {
+      "role": "Search Strategist",
+      "name": "Alexandra Stone-Kondrat"
+    },
+    {
+      "role": "Executive Producer",
+      "name": "Karen Huybers"
+    },
+    {
+      "role": "Editor",
+      "name": "Drew Stevenson"
+    },
+    {
+      "role": "Editor",
+      "name": "Neil McAuley"
+    },
+    {
+      "role": "Editor",
+      "name": "Jordyn Stern"
+    },
+    {
+      "role": "Assistant Editor",
+      "name": "Dylan O'Donnell"
+    },
+    {
+      "role": "Broadcast Producer",
+      "name": "Christine Stephens"
+    },
+    {
+      "role": "Audio Engineer",
+      "name": "Arnaud Cote"
+    },
+    {
+      "role": "Audio Producer",
+      "name": "Ethan Butler"
+    }
+  ],
+  "image_urls": [
+    "https://cdn.maydream.com/adforum-media/34703988/mediarepo_34703988_43d12ea40256b8ac_tn.jpg?GoogleAccessId=app-winners-epica-awards%40maydreamcloud.iam.gserviceaccount.com&Expires=1753887655&Signature=TAUkVoOOIbNrYAhTsv%2B88%2Bdnp6B%2B8UZBTSkF99xYoK9hXCPFZ64dMtxJ7W8sFoJcOKzgI2lMCndkQmYe0Hy5D53gyCacBdarcibppN12wa98qzSO%2B36E53VydXaZ7YuDb64U7BrTQii00LeooBTYpHDWjRqdUFFHYDxquul3FdBRqKVHddLyZWQFVmnHE%2F%2BFA7sMVso%2BaNbVZDpV5tT8A2DwnVaKhvMr92ZNIzRWJuFuy6E3QiJNBzGnNI%2FJ74QVrAKDIsu6ns3cBy0IejpUL1s%2Bg6r7LQx64SYEJVf9WRMIevAYTnNy%2B3gODYZ9kTZsv0OOWHZG1e%2BnhMOd1fdF2g%3D%3D",
+    "https://cdn.maydream.com/adforum-media/34703987/mediarepo_34703987_abf82d96dae0e80d_web.jpg?GoogleAccessId=app-winners-epica-awards%40maydreamcloud.iam.gserviceaccount.com&Expires=1753887655&Signature=FzFghx%2FWsBk2h9tRQclQS9c8dchhQHxuBrqsuDZFPiuMe7pIenfE8Tc7lfVWst4ILnSSmdjsV6X0qe%2FxzjTlVXijgQ5IFOsLPBEMeHzivlX5pRmY%2FyZSkUuLImg94FRzWTtgdf%2BhcZXeabn7oWW3rYv7kCsOyxeILdc8h4fTTO5b4kHbt%2F5oyibGFGVfHpLMoDBEb5wzQx3Q3uFTu42XOqdp9%2Fb5VO0EohAPmSu5YszWCmd9ptrNu%2FfWgHYNmeHXcVttnKdcOlrWT1zECL%2Bv%2Bp02qn%2F4BNoe7knpaDCsS69o7SGGI5LSuh3YciXL2wAMbKfYtYxwo0H6Lbdpkqpp3g%3D%3D",
+    "https://cdn.maydream.com/adforum-media/34703989/mediarepo_34703989_26398bb2b3249686_web.jpg?GoogleAccessId=app-winners-epica-awards%40maydreamcloud.iam.gserviceaccount.com&Expires=1753887655&Signature=JRLMoSIUDGqpqlxixdedR9duJW2Fy8NtpSavRWIJxzkKK7FknsDAzF%2BLE3LtpYcyGHdjxjpCOvvF1rOhTgt99SDF9dMjwq7Lgf9yKn2MUc0QMENqaFYjmBhSRKzbbFEzbfDQb8kU7BdtOP4yx5emeLoCrJEV8rluF2mO1sGSRurGYAgOemDHoyhwbCccoqZToZsYIREe6wRIysg0Svgj%2B00yiWhGF%2F1XkRQ2Bm525cJ%2BRLNdK4sD0MTXZhToqTG4iCh80%2BfsEieu28MRbWji046inAeUx0mqJiF6THweZKw3DbJO0QsaXEWqlBzIr0HSrQOFkbfye5byjb6rsPCBCQ%3D%3D",
+    "https://cdn.maydream.com/adforum-media/34703990/mediarepo_34703990_1368db7811f91a60_web.jpg?GoogleAccessId=app-winners-epica-awards%40maydreamcloud.iam.gserviceaccount.com&Expires=1753887655&Signature=q1GFiGaXNhpDFtgHlRFJf2myNWNDsCD69WW%2Fl7I8w14X5YEkdLEcrUBU936p%2FTBXtgYY9hqk%2BJ6NzsDxSiCEA4rbxwNg%2BX5Z%2BP7rSZqlbo6Jcz5L3mxYcqzi%2ByBLz0ddeTgkeNYxSEjByey%2FYUs8T3Wi9IPoNV4021h5aUH1Rcep9tE%2BuHo1UKgGp6FxWyzF6Bmha4MzK%2FGbWSbGuUe1jt%2Bfxk9emSF2XKG0y2yYqNncgILXeeXUr%2FqUJUqqUT53dI77j3KAzQTqjbeKMNChzn20Up67HbCMMkNY6vVx0afxrtDERYR3RYPAIBGtW77e1CJ%2FFurkwX99FOwYiHIaeA%3D%3D",
+    "https://cdn.maydream.com/adforum-media/34703991/mediarepo_34703991_e5478dd3e66d0846_web.jpg?GoogleAccessId=app-winners-epica-awards%40maydreamcloud.iam.gserviceaccount.com&Expires=1753887655&Signature=TKwbsTwKjUxbXlc0OZQFJrNlpNG5raJsz1%2BJCBD8itxqfW%2B7OAarSRkbuZsEsIGsHuqNPp7DZKJK%2BdMADleZSVU9r%2FsjGCFGY17BP2DEicpHFT8HvUVZnnxuT0pGRuONUuZWAdFVlVg3baC6UVznE%2Fw9g3ZCY3jzhDQgvSUH%2FlmkuyUZPtGXfTAF%2B8Hd4scRNjJYnVgPRLVWfhGHzeQXsex0wPNg6dMxnnm7x3RtEHVbfglhOVr%2F1ozH4gWZdKmeCICA9VXP0pmgk3bWWhkjz531hWb8n6Olsm82sC1brN%2FhyuNUuysKMd%2BYZVWq1rOY%2FujH%2FyOjm9tWk%2B36j2HySw%3D%3D"
+  ],
+  "videos": [
+    {
+      "video_url": "https://cdn.maydream.com/adforum-media/34703988/mediarepo_34703988_6f245c77a4c6b8a1_web.mp4?GoogleAccessId=app-winners-epica-awards%40maydreamcloud.iam.gserviceaccount.com&Expires=1753887655&Signature=lmYkeG5UhC09r4yZG4dCnlvtZtrhtV1SXWvAA9QCHzgel3JzwT6OYNWu%2FV67ggg3uUiI5TV4wEL0TSIlqQkZDAeCLY55fmC%2FcSmu45KKOqP7p5PTj4MhZQDJ6w2d7H2twX2wFB2aUjm%2Bl7BJW1DAOGNbeeEADDMopW9q84d5tkMk1JhMAdjuHjPFT2bCj0oFKg%2BTrmMLKkw3pplJJUX70ChAiSPfZEwuzRKHwSvljc8yGFbe6ADHsTpy%2B1%2BYzIxtRuqAUM9QJ7gC80UotP0Ed44cxY1WK9Kc9K40m9uXQN1pQpy91Agzlwz1nNCJ7w3K%2BoA4FICM2hvyE3h6oSdfvw%3D%3D",
+      "thumbnail": "https://cdn.maydream.com/adforum-media/34703988/mediarepo_34703988_43d12ea40256b8ac_tn.jpg?GoogleAccessId=app-winners-epica-awards%40maydreamcloud.iam.gserviceaccount.com&Expires=1753887655&Signature=TAUkVoOOIbNrYAhTsv%2B88%2Bdnp6B%2B8UZBTSkF99xYoK9hXCPFZ64dMtxJ7W8sFoJcOKzgI2lMCndkQmYe0Hy5D53gyCacBdarcibppN12wa98qzSO%2B36E53VydXaZ7YuDb64U7BrTQii00LeooBTYpHDWjRqdUFFHYDxquul3FdBRqKVHddLyZWQFVmnHE%2F%2BFA7sMVso%2BaNbVZDpV5tT8A2DwnVaKhvMr92ZNIzRWJuFuy6E3QiJNBzGnNI%2FJ74QVrAKDIsu6ns3cBy0IejpUL1s%2Bg6r7LQx64SYEJVf9WRMIevAYTnNy%2B3gODYZ9kTZsv0OOWHZG1e%2BnhMOd1fdF2g%3D%3D"
+    }
+  ],
+  "tags": null,
+  "product": null
+}

@@ -1,0 +1,7 @@
+Hello, thank you very much for this first piece of work.
+I'm not sure if it's related, but I think we should start scraping the data from 2025 and then go backward to 2012, because | believe some data is missing in the older years, which might be slowing down the script.
+For example, the page https:/l.
+www.unblock.coffee/campaign/connecting=
+lifelines/ doesn't open on my side.
+Overall, I think it's good - I just noticed two small errors on the right side of the credits, which are not being taken into account.
+Also, please don't use hyphens ("-") in the folder names for the categories.

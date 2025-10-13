@@ -1,0 +1,12 @@
+Hi! I hope you’re doing well.
+I’ve got a new scraping brief ready for you, this time for the website adsoftheworld.com. I’ve prepared all the details in the JPEG file attached.
+
+One quick note regarding the naming of the video/media files: I noticed you’ve been using underscores instead of spaces. However, for consistency with the databases I already have, we need to use spaces in the filenames just like you did for the Super Bowl project.
+
+In the Epica and Club des DA scrapes, you used underscores, so I’ve included an example in the brief to show exactly how I format my filenames.
+
+Let me know if you have any questions before starting.
+
+Also, feel free to send me a new $100 project request so we can launch this task. 
+
+Looking forward to your feedback!
