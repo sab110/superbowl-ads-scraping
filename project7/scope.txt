@@ -35,3 +35,17 @@ https://www.oneclub.org/awards/youngones/-archive/awards/2025/all/all/select
 
 You can find them in the dropdown menu [ image 2]
 
+Awards Mapping
+
+Silver pencil
+<img class="award-tag" src="/images/userfiles/images/awards/os-silver-pencil-tag.png" alt="">
+Gold pencil
+<img class="award-tag" src="/images/userfiles/images/awards/os-gold-pencil-tag.png" alt="">
+Penta pencil
+<img class="award-tag" src="/images/userfiles/images/awards/os-penta-pencil-tag.png" alt="">
+Green pencil
+<img class="award-tag" src="/images/userfiles/images/awards/os-green-pencil-tag.png" alt="">
+Merit
+<img class="award-tag" src="/images/userfiles/images/awards/os-merit-tag.png" alt="">
+Bronze pencil
+<img class="award-tag" src="/images/userfiles/images/awards/os-bronze-pencil-tag.png" alt="">
