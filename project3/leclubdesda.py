@@ -58,9 +58,11 @@ driver = webdriver.Chrome(options=options)
 
 # ====== SETUP ======
 # years = [str(y) for y in range(1976, 1991)]
-years =  [str(y) for y in range(2023, 1979, -1)] + [
-    "1973-1974", "1974-1975", "1971-1972", "1970-1971", "1969-1970", "1968-1969"] 
+# years =  [str(y) for y in range(2023, 1979, -1)] + [
+#     "1973-1974", "1974-1975", "1971-1972", "1970-1971", "1969-1970", "1968-1969"] 
 
+
+years =['2024']
 award_ids = ["5", "9", "10", "13"]
 category_ids = list(category_map.keys())
 pages = list(range(1, 50))
